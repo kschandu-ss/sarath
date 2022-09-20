@@ -5,7 +5,7 @@ Sample Output 1:
 *****
 *****
 *****
-source coden=
+source codn=
 int(input())
 for i in range(0,n):
     for j in range(0,n):
