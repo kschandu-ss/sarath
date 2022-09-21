@@ -1,0 +1,10 @@
+SAMPLE  INPUT:50
+              20
+SAMPLE OUTPUT:
+Required length is 140 m
+Required quantity of carpet is 1000 sqm
+SOURCE CODE:
+a=int(input())
+b=int(input())
+print('required length is',2*a+2*b,'m')
+print('required quantity of carpet is',a*b,'sqm')
