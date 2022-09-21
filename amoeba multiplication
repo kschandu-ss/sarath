@@ -1,0 +1,13 @@
+input =Enter the number of Months :7
+OUTPUT :The amoeba size is 8
+SOURCE CODE: 
+print("Enter the number of Months :")
+m=int(input())
+a,b=0,1
+i=3
+while i<=m:
+    f=a+b
+    a=b
+    b=f
+    i=i+1
+print("The amoeba size is ",b)
