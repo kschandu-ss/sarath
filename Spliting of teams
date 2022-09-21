@@ -1,0 +1,11 @@
+Sample Input :
+60 
+8
+SAMPLE OUTPUT:
+The number of students in each team is 7 and left out is 4
+SOURCE CODE:
+t=int(input())
+n=int(input())
+a=t//n
+b=t%n
+print("the number of students in each team is",a,"and left out is",b)
