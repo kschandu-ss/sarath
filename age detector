@@ -1,0 +1,15 @@
+Input :
+Enter Year of Birth  62
+Enter Current year  99
+OUTPUT :Your age is 37
+SOURCE CODE:
+print("Enter year of birth")
+a=int(input())
+print("Enter current year")
+b=int(input())
+if(b>a):
+    c=(b)-(a)
+    print("Your age is ",c)
+else:
+    c=(b+100)-a
+    print("Your age is",c )
