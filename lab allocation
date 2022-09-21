@@ -1,0 +1,19 @@
+Sample Input:
+Enter x  30
+Enter y  40
+Enter z  20
+
+OUTPUT  L3 has the minimal seating capacity
+SOURCE CODE: 
+print("Enter x")
+a=int(input())
+print("Enter y")
+b=int(input())
+print("Enter z")
+c=int(input())
+if(a<b and a<c):
+    print("L1 has the minimal seating capacity")
+elif(b<a and b<c):
+    print("L2 has the minimal seating capacity")
+else:
+    print("L3 has the minimal seating capacity")
