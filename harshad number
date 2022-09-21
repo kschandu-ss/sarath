@@ -1,0 +1,13 @@
+Sample Input: 1729
+ Sample Output:  Harshad Number
+SOURCE CODE:
+a=int(input())
+sum=0
+while(a>0):
+    b=a%10
+    sum=sum+b
+    a=a//10
+if a%sum==0:
+    print(" Not harshad number")
+else:
+    print(" harshad number")
