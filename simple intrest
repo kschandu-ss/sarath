@@ -1,0 +1,11 @@
+Sample Input:15000
+             2
+             2.8
+Sample Output:
+840.00
+SOURCE CODE:
+p=int(input())
+t=int(input())
+r=float(input())
+s=(p*t*r)/100
+print('%.2f'%s)
