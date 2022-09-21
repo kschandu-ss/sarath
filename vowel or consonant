@@ -1,0 +1,13 @@
+Sample Input: a 
+Sample Output: Vowel
+SOURCE CODE:
+ch=input()
+x=ord(ch)
+vow='aeiouAEIOU'
+if(x>=65 and x<=90)or(x>=97 and x<=122):
+    if ch in vow:
+        print('vowel')
+    else:
+        print('consonant')
+else:
+    print('Not an alphabet')
