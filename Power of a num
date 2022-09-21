@@ -1,0 +1,10 @@
+Print the power of a number
+Sample Input:
+2
+3
+Sample Output: 8
+SOURCE CODE:
+a=int(input())
+b=int(input())
+c=pow(a,b)
+print(c)
