@@ -1,0 +1,9 @@
+Sample Input :5
+Output   121 225 361 529 729 
+SOURCE CODE
+n=int(input())
+x=11
+for i in range(1,n+1):
+    a=x**2
+    print(a)
+    x=x+4
