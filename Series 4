@@ -1,0 +1,6 @@
+Sample Input:5
+O/P  0.5 1.5 4.5 13.5 40.5 
+SOURCE CODE
+n=int(input())
+for i in range(0,n):
+    print((3**i)/2)        
