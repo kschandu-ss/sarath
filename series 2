@@ -1,0 +1,9 @@
+Sample Input:5
+Sample Output:6 11 21 36 56 
+SOURCE CODE:
+n=int(input())
+x=6
+print(x)
+for i in range(1,n):
+    x=x+(i*5)
+    print(x)
