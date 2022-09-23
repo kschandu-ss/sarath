@@ -1,0 +1,7 @@
+INPUT dict={'A':100,'B':540,'C':239}
+OUTPUT Total sum of values in the dictionary:879
+SOURCE CODE
+dict={'A':100,'B':540,'C':239}
+values=list(dict.values())
+print("Total sum of values in the dictionary:")
+print(sum(values))
